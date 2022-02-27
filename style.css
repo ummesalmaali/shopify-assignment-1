@@ -6,6 +6,9 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+img {
+  max-width: 100%;
+}
 
 header {
   background: #282828;
@@ -17,6 +20,9 @@ header {
 .flex {
   display: flex;
   flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
 }
 .align-center {
   align-items: center;
@@ -78,4 +84,13 @@ nav ul li a:hover {
   height: 300px;
   width: 250px;
   padding: 10px;
+}
+.shop {
+  padding: 120px 50;
+}
+.product-img,
+.product-details {
+  flex-basis: 30%;
+  max-width: 30%;
+  padding: 8px;
 }
