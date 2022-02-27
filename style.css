@@ -90,7 +90,70 @@ nav ul li a:hover {
 }
 .product-img,
 .product-details {
-  flex-basis: 30%;
-  max-width: 30%;
+  flex-basis: 40%;
+  max-width: 40%;
   padding: 8px;
+}
+.product-img .flex div {
+  flex-basis: 25%;
+  max-width: 25%;
+  padding: 5px;
+}
+.product-img .flex div img {
+  height: 102px;
+  width: 100%;
+  object-fit: cover;
+}
+.product-details h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.product-details h3 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.product-details span {
+  text-decoration: line-through;
+  font-weight: 500;
+  color: #666;
+  font-size: 20px;
+}
+
+.product-details p {
+}
+.product-details ul {
+  list-style: none;
+  display: flex;
+}
+.product-details ul li {
+  padding: 5px;
+}
+.product-details ul li span {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+.red1 {
+  background: rgb(252, 147, 147);
+}
+.red2 {
+  background: rgb(153, 18, 18);
+}
+.red3 {
+  background-color: rgb(240, 74, 74);
+}
+.red4 {
+  background: rgb(248, 47, 47);
+}
+.product-details button {
+  background-color: #282828;
+  color: #fff;
+  padding: 10px 60px;
+  font-size: 24px;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
