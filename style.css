@@ -49,6 +49,7 @@ nav ul {
   justify-content: flex-end;
 }
 nav ul li {
+  list-style: none;
 }
 nav ul li a {
   color: white;
@@ -86,7 +87,7 @@ nav ul li a:hover {
   padding: 10px;
 }
 .shop {
-  padding: 120px 50;
+  padding: 120px 50px;
 }
 .product-img,
 .product-details {
@@ -119,8 +120,6 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
-.product-details p {
-}
 .product-details ul {
   list-style: none;
   display: flex;
